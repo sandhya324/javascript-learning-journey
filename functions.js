@@ -50,7 +50,7 @@
 
 // array
 
-let array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+// let array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 
 // for(i=0; i<array.length; i++){
 //     console.log(array[i]);
@@ -100,11 +100,11 @@ let array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
 
 // Array of Objects
 
-const notebooks = [
-    {brand: "HP", model: "Pavilion", color: "Black"},
-    {brand: "Dell", model: "Inspiron", color: "Black"},
-    {brand: "Apple", model: "MacBook Pro", color: "Space Gray"},
-]
+// const notebooks = [
+//     {brand: "HP", model: "Pavilion", color: "Black"},
+//     {brand: "Dell", model: "Inspiron", color: "Black"},
+//     {brand: "Apple", model: "MacBook Pro", color: "Space Gray"},
+// ]
 
 // console.log(notebooks[0].color);
 // console.log(notebooks[1].color);
