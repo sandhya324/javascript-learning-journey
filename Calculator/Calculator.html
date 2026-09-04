@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <div id="calculator">
+
+        <h4>Calculator</h4>
+
+        <form action="">
+
+
+
+            <label for="value1">Enter first Number: </label>
+            <input id="value1" placeholder="Enter a number" required>
+
+            <br><br>
+
+
+            <label for="operator">Select Operator:</label>
+            <select id="operator">
+                <option value="">"" </option>
+                <option value="+"> + </option>
+                <option value="-"> - </option>
+                <option value="*"> * </option>
+                <option value="/"> / </option>
+                <option value="%"> % </option>
+            </select>
+
+            <br><br>
+
+
+
+            <label for="value2">Enter Second Number: </label>
+            <input id="value2" placeholder="Enter a number" required>
+
+            <br><br>
+
+            <button type="submit">Check result</button>
+
+        </form>
+
+    </div>
+
+    <script src="Calculator.js"></script>
 </body>
+
 </html>
