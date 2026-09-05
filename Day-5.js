@@ -47,9 +47,9 @@ console.log(result); // Output: 40
 
 function isEven(number){
    if(number % 2 == 0){
-       return "true";  
+       return true;  
    }
-   return "false";
+   return false;
 }
 
 console.log(isEven(5));
@@ -79,3 +79,14 @@ table(5);
 
 
 
+
+// Q6. Create a function to calculate total price and add 10% discount inn the function 
+function calculateTotal(price, quantity){
+
+    let total = price * quantity;
+    return total -  (total * (10.0) / (100)) ;
+
+}
+
+let finalPrice = calculateTotal(500, 3);
+console.log(finalPrice);

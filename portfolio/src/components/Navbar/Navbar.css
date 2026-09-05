@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Nav{
+    background-color:#FCE4E6;
+}
+
+.navbar{
+   display: flex; 
+   gap: 170px;
+   padding: 0 20px;
+}
+.nav-left .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-left .logo .logo-text h3{
+    color: #8F3D50;
+}
+.nav-left .logo .logo-text p{
+    color: #C97C86;
+}
+.nav-left .logo img{
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-links ul li{
+    padding: 5px;
+    font-size: 22px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #292326;
+}
+.nav-links ul li a:hover{
+    color: #8F3D50;
+}
+
+
+.nav-right ul{
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+}
+.nav-right ul li{
+    padding: 10px 22px;
+    border-radius: 4px;
+    background: #8F3D50;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.nav-right ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-right ul li:hover {
+    background: #C97C86;
+}
